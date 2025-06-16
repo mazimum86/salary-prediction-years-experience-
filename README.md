@@ -1,36 +1,88 @@
-# Salary Prediction Based on Years of Experience
+# 📈 Simple Linear Regression: Salary vs Experience
 
-This project explores how different regression algorithms can predict employee salary using years of experience as input. The goal is to compare models and determine which provides the most accurate predictions.
+Predict salary based on years of experience using simple linear regression in both **Python** and **R**.
 
-## Models Used
-- Linear Regression
-- Polynomial Regression
-- Decision Tree Regression
-- Random Forest Regression
-- Support Vector Regression (SVR)
+---
 
-## Tools
-- Python (pandas, scikit-learn, matplotlib)
-- R (base R, ggplot2, caret)
-- GitHub for version control and collaboration
+## 📁 Project Structure
 
-## Dataset
-The dataset consists of 30 samples with two features:
-- `YearsExperience`: Number of years of experience
-- `Salary`: Corresponding annual salary
+```
+.
+├── data/
+│   └── Salary_Data.csv
+├── outputs/
+│   ├── SLR_predicted_salaries.csv       # Python predictions
+│   └── SLR_predicted_salaries_r.csv     # R predictions
+├── plots/
+│   ├── simple_linear_regression_plot_train.png  # Python training plot
+│   ├── simple_linear_regression_plot_test.png   # Python test plot
+│   ├── R_linear_regression_plot_train.png       # R training plot
+│   └── R_linear_regression_plot_test.png        # R test plot
+├── python/
+│   └── linear_regression.py
+├── r/
+│   └── simple_linear_regression.R
+└── README.md
+```
 
-## Outputs
-- Visual comparisons between models
-- Evaluation metrics (R² Score, MSE, MAE)
-- Model selection based on performance
+---
 
-## How to Use
-1. Clone the repo
-2. Open `/python` or `/r` folder
-3. Run individual model scripts
+## 💡 Objective
 
-## Author
-Chukwuka Chijioke Jerry  
-[LinkedIn](https://www.linkedin.com/in/chukwukacj/) | [Twitter/X](https://twitter.com/Mazimum_)  
-📧 chukwuka.jerry@gmail.com | 📱 +2348038782912
+This project applies **Simple Linear Regression** to predict employee salaries based on their years of experience. It includes complete implementations in both Python and R, with visualizations and saved prediction outputs.
 
+---
+
+## 🛠️ Technologies Used
+
+### Python:
+- `pandas`
+- `matplotlib`
+- `scikit-learn`
+
+### R:
+- `ggplot2`
+- `caTools`
+
+---
+
+## 🚀 How to Run
+
+### 📌 Python
+1. Navigate to the `python/` directory.
+2. Make sure `Salary_Data.csv` is in `../data/`.
+3. Run:
+
+```bash
+python linear_regression.py
+```
+
+Predictions and plots will be saved in the `outputs/` and `plots/` folders.
+
+### 📌 R
+1. Navigate to the `r/` directory.
+2. Ensure `Salary_Data.csv` is in `../data/`.
+3. Run the script `simple_linear_regression.R` in RStudio or R console.
+
+---
+
+## 🧾 Outputs
+
+- CSV files showing actual vs predicted salaries.
+- Training and test set plots for both Python and R.
+
+---
+
+## 👨‍💻 Author
+
+**Chukwuka Chijioke Jerry**  
+- 📧 chukwuka.jerry@gmail.com | chukwuka_jerry@yahoo.com  
+- 🔗 [LinkedIn](https://www.linkedin.com/in/chukwukajerry/)  
+- 🐦 [Twitter / X: @Mazimum_](https://twitter.com/Mazimum_)  
+- 📱 WhatsApp: +2348038782912
+
+---
+
+## 📜 License
+
+This project is open-source and available for educational use.
