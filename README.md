@@ -77,7 +77,7 @@ Predictions and plots will be saved in the `outputs/` and `plots/` folders.
 
 **Chukwuka Chijioke Jerry**  
 - 📧 chukwuka.jerry@gmail.com | chukwuka_jerry@yahoo.com  
-- 🔗 [LinkedIn](https://www.linkedin.com/in/chukwukajerry/)  
+- 🔗 [LinkedIn](https://www.linkedin.com/in/chukwukacj/)  
 - 🐦 [Twitter / X: @Mazimum_](https://twitter.com/Mazimum_)  
 - 📱 WhatsApp: +2348038782912
 
